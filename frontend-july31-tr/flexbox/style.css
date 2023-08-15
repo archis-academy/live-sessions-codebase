@@ -1,0 +1,21 @@
+.container{
+    /* border: 2px solid green; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    gap: 5px;
+    display: flex;
+}
+
+.ana-sayfa{
+    flex: 1 1 200px;
+    /* flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+}
+
+.hepsiburada{
+    flex: 3 3 200px;
+    /* flex-basis: 200px;
+    flex-grow: 3;
+    flex-shrink: 3; */
+}
