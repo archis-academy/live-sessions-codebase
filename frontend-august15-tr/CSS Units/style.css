@@ -1,0 +1,18 @@
+/* % -> parent'ının içerisinde yüzde kaç yer kapladığı */
+/* em -> parent'ının font-size'ına göre örnek: 1em -> 16px */
+/* rem -> root element'e göre belirlernir. varsayılan ayar -> 16px -> 1rem */
+/* vw -> viewport width -> ekranın gözüken kısmının genişliğinin yüzdesi */
+/* vh -> viewport height -> ekranın gözüken kısmının yüksekliğinin yüzdesi */
+
+.container{
+    border: 2px solid green;
+    width: calc(100% - 50%);
+    font-size: 30px;
+    min-height: 100vh;
+}
+
+.ic-div{
+    border: 3px solid magenta;
+    padding-top: 1em;
+    margin-top: 1rem;
+}
